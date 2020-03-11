@@ -1,0 +1,33 @@
+HOST=0.0.0.0
+PORT=3333
+NODE_ENV=development
+APP_URL=http://${HOST}:${PORT}
+CACHE_VIEWS=false
+APP_KEY=7GT4RAIBe9FLHqgdkXOm9FZuRid0y31i
+
+DB_CONNECTION=mysql
+DB_HOST=us-cdbr-iron-east-02.cleardb.net
+DB_PORT=3306
+DB_USER=bc62bc3c40e4e4
+DB_PASSWORD=4f0dbdf8
+DB_DATABASE=heroku_e0965e781856ec3
+
+#DB_CONNECTION=mysql
+#DB_HOST=127.0.0.1
+#DB_PORT=3306
+#DB_USER=root
+#DB_PASSWORD=123456
+#DB_DATABASE=tcc
+#DB_DATABASE=heroku_b56d4ad13c3213f
+#DB_DEBUG=true
+SESSION_DRIVER=cookie
+HASH_DRIVER=bcrypt
+
+
+//Your client id
+CLIENT_ID= '7fe3396de78e4050a1eb1a796e1716ea'
+// Your secret
+CLIENT_SECRET = 'fced5e7cc9754c9ca1840fc26c69f393'
+// Your redirect uri
+REDIRECT_URI= 'https://colabbox-api.herokuapp.com/callback/'
+#REDIRECT_URI= 'http://localhost:3333/callback'
